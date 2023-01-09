@@ -1,0 +1,33 @@
+Theoretical Challenge
+====================
+
+Ans-1 =>
+
+1. First, I will insert all data with comma seperated and then save it with the .csv extension
+
+2. Then I will read the data using BufferReader and Then I will convert the data to an array.
+
+String file = "src\\file.csv"
+BufferedReader bufferReader = new BufferedReader(new FileReader(file));
+
+3. Then I will store the data in Key-Value format using HashMap
+
+
+4. While splitting values if (=) is founded, I will consider them as a formula and then pass them as a parameter in my method to solve them.
+
+5. In last, I will return the Map with all values.
+
+
+
+Ans-2 =>
+
+ 1. If the wrong file path is provided inside the FileReader, then we will get fileNotFoundException
+
+ 2. Circular dependency error, there might be a chance that circular dependency may occur, as if formula A is dependent on C and C is dependent of A
+
+
+Ans-3 =>
+
+If the wrong path is provided then our code will break.
+
+

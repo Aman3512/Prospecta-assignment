@@ -1,0 +1,13 @@
+Q what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+
+Ans =>
+
+
+1. Data Validation => Validate the data
+
+2. Authentication => check the user credentials, using Spring Security, JAAS API
+
+3. Authorization => Check whether the authenticated user has the authority to access the API, using Spring security (session-based or JWT Token based)
+
+4. Exception Handling => Handle exceptions properly, like server errors, invalid input, etc.
